@@ -1,0 +1,24 @@
+.footer {
+  background-color: rgb(86, 86, 86);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.footer > .footer-links {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.fa-brands, .fab {
+  font-family: "Font Awesome 6 Brands";
+  font-weight: 400;
+  color: white;
+  padding: 5px;
+}

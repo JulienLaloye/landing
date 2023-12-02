@@ -1,0 +1,9 @@
+.banner {
+  background-color: darkblue;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  align-content: center;
+  align-items: center;
+}

@@ -1,0 +1,33 @@
+.container {
+  width: 900px;
+  margin: 0 auto;
+  /* margin: auto; */
+}
+
+.container h1 {
+  color: white;
+}
+
+.container p {
+  color: rgb(113, 109, 140);
+  font-weight: lighter;
+  text-shadow: 1px white;
+}
+
+@media (max-width: 900px){
+.container {
+    width: 500px;
+}
+}
+
+@media (max-width: 700px){
+  .container {
+      width: 450px;
+  }
+  }
+
+  @media (max-width: 500px){
+    .container {
+        width: 300px;
+    }
+    }
